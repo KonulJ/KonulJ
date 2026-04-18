@@ -57,12 +57,12 @@
 ## Featured Projects
 
 | Project | Description | Stack |
-|---|---|---|
-| [Predictive Maintenance](https://github.com/KonulJ/Predictive-Maintenance) | RUL prediction for aircraft turbofan engines — XGBoost/LightGBM on NASA C-MAPSS dataset | XGBoost, LightGBM, Dash |
-| [PDF RAG App](https://github.com/KonulJ/Pdf-rag-app) | Chat with your PDFs locally — no cloud or GPU required | LlamaIndex, ChromaDB, Ollama, Streamlit |
-| [Groq Chatbot](https://github.com/KonulJ/Groq-chatbot) | Ultra-fast multi-LLM chatbot with session memory | LangChain, Groq API, Streamlit |
-| [Memory-Enabled Chatbot](https://github.com/KonulJ/Memory-Enabled-Chatbot-using-LangChain-Groq) | Multi-session chatbot with persistent memory & multi-language support | LangChain, Groq LLaMA |
-| [Avocado Price Forecasting](https://github.com/KonulJ/Time-series-analysis) | SARIMA time-series pipeline — RMSE 0.22, MAPE 13.58% | Statsmodels, Pandas, Matplotlib |
+| --- | --- | --- |
+| [Predictive Maintenance](https://github.com/KonulJ/Predictive-Maintenance) | RUL prediction for aircraft turbofan engines — LightGBM on NASA C-MAPSS, R² 0.86 on held-out set | LightGBM, XGBoost, Plotly Dash |
+| [PDF RAG App](https://github.com/KonulJ/Pdf-rag-app) | Chat with your PDFs locally — no cloud or GPU required, streaming answers with source citations | LlamaIndex, ChromaDB, Ollama, Streamlit |
+| [Groq Chatbot](https://github.com/KonulJ/Groq-chatbot) | Multi-LLM chatbot with streaming, session memory and custom system prompts | LangChain LCEL, Groq API, Streamlit |
+| [Memory-Enabled Chatbot](https://github.com/KonulJ/Memory-Enabled-Chatbot-using-LangChain-Groq) | Multi-session chatbot — per-session history, token-aware trimming, EN/DE/TR language switching | LangChain, RunnableWithMessageHistory |
+| [Avocado Price Forecasting](https://github.com/KonulJ/Time-series-analysis) | Modular SARIMA pipeline — ADF test, seasonal decomposition, RMSE 0.22, MAPE 13.58% | Statsmodels, Pandas, Scikit-learn |
 
 ---
 
